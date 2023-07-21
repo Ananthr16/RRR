@@ -7,14 +7,27 @@ import time
 
 #setting the page
 st.title('RRR')
-st.markdown('''This webapp uses two ML model to define your waste which in 
+st.subheader('''This webapp uses two ML model to define your waste which in 
 turn helps you to  Reduce, Recycle, Reuse your waste''') 
+st.markdown("""Steps to use the app :
+- Click the image with the camera app on your phone""")
 object = []
 type = []
 #loading the models
 model1 = YOLO('yolov8x-cls.pt')
 model2 = YOLO('best.pt')
-
+st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
 # Set up the OpenAI API client
 openai.api_key = "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"
 
