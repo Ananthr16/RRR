@@ -28,7 +28,7 @@ st.markdown(
          unsafe_allow_html=True
      )
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "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"
 
 #loading the image
 img = st.file_uploader('Select your input image in jpg/jpeg',type=['jpg','png','jpeg'])
