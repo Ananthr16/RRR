@@ -9,7 +9,10 @@ import time
 st.title('RRR')
 st.subheader('''The RRR Web Application uses a 2 step ML Model backed up with multiple data sets as well as a customized data set to identify the object and the material after which it provides ways to reduce, reuse, and recycle the obejct.  ''') 
 st.markdown("""Steps to use the app :
-- Click the image with the camera app on your phone""")
+- Click the image using the camera app on your mobile phone
+- Press the button 'browse files' and choose the image from your gallery.
+- select the correct combination from the ML Model outputs
+- Select reduce,Reuse or recycle and wait for the results """)
 object = []
 type = []
 #loading the models
