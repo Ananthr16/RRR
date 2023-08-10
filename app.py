@@ -7,7 +7,7 @@ import time
 
 #setting the page
 st.title('RRR')
-st.subheader('''This webapp uses two ML model to define your waste which in turn helps you to  Reduce, Recycle, Reuse your waste''') 
+st.subheader('''The RRR Web Application uses a 2 step ML Model backed up with multiple data sets as well as a customized data set to identify the object and the material after which it provides ways to reduce, reuse, and recycle the obejct.  ''') 
 st.markdown("""Steps to use the app :
 - Click the image with the camera app on your phone""")
 object = []
