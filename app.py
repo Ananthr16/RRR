@@ -74,11 +74,11 @@ if img is not None:
 		button3 = st.button('Reuse')
 
 	if button1:
-		st2 = f'please give 5 detailed ways to recycle{string} waste'
+		st2 = f'Give me 5 innovative ways to recycle {string} waste'
 		st.write(search(st2))
 	if button2:
-		st2 = f'can you please describe detailed steps to reduce {string} waste'
+		st2 = f'Give me 5 eco-friendly alternatives to {string} and ways to reduce {string}'
 		st.write(search(st2))
 	if button3:
-		st2 = f'can you please generate 3 ways to reuse/repurpose {string} in a very detailed/step by step manner'
+		st2 = f'Give me 3 ways to reuse {string} in a very detailed/step by step manner'
 		st.write(search(st2))
