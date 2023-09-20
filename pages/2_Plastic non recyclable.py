@@ -18,5 +18,5 @@ Incredibly hard to recycle plastics include crisp packets, salad bags, plastic w
 st.markdown(''' Recycler for non recyclable plastic waste - Rudra Environment solutions Ltd
 ''')
 st.markdown('''All plastic waste much be clean and dry. Proper care must be taken to ensure there is no wet waste mixed.''')
-st.markdown('''Contact information - 020 25448900, 9373053235''')
+st.markdown('''Contact information - 020 25448900, 9373053235''') 
 
