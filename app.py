@@ -13,5 +13,5 @@ st.subheader('''The RRR Web Application uses a 2 step ML Model backed up with mu
 
 if st.button("AI Model"):
 	switch_page('AI Model')
-if st.button("Plastic(recyclable":
+if st.button("Plastic(recyclable)"):
 	switch_page('Plastic(recyclable')
