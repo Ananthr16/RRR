@@ -5,9 +5,20 @@ import openai
 from PIL import Image
 import time
 from streamlit_option_menu import option_menu
+from streamlit_extras import switch_page
 
 #setting the page
-st.title('RRR')
+st.set_page_config(initial_sidebar_state = 'collapsed')
+selected = option_menu(
+            menu_title=None,  # required
+            options=["AI Model", "Segregation"],  # required
+            menu_icon="cast",  # optional
+            default_index=0,  # optional
+            orientation="horizontal",
+        )
+if selected = 'AI model':
+	switch_page('AI model')
+st.title('Reduce, Recycle, Reuse')
 st.subheader('''The RRR Web Application uses a 2 step ML Model backed up with multiple data sets as well as a customized data set to identify the object and the material after which it provides ways to reduce, reuse, and recycle the obejct.  ''') 
 st.markdown("""Steps to use the app :
 - Click the image using the camera app on your mobile phone
@@ -31,16 +42,6 @@ st.markdown(
          """,
          unsafe_allow_html=True
      )
-
-with st.sidebar:
-	selected = option_menu(
-            menu_title=None,  # required
-            options=["Home", "Projects", "Contact"],  # required
-            icons=["house", "book", "envelope"],  # optional
-            menu_icon="cast",  # optional
-            default_index=0,  # optional
-            orientation="horizontal",
-        )
 
 # Set up the OpenAI API client
 openai.api_key = "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"
