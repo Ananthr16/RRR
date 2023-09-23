@@ -2,5 +2,4 @@ ultralytics
 openai
 streamlit 
 pillow 
-streamlit-option-menu
 streamlit-extras
