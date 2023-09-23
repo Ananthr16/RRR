@@ -4,6 +4,7 @@ from ultralytics import YOLO
 import openai
 from PIL import Image
 import time
+from streamlit_option_menu import option_menu
 
 #setting the page
 st.title('RRR')
@@ -30,6 +31,17 @@ st.markdown(
          """,
          unsafe_allow_html=True
      )
+
+with st.sidebar:
+	selected = option_menu(
+            menu_title=None,  # required
+            options=["Home", "Projects", "Contact"],  # required
+            icons=["house", "book", "envelope"],  # optional
+            menu_icon="cast",  # optional
+            default_index=0,  # optional
+            orientation="horizontal",
+        )
+
 # Set up the OpenAI API client
 openai.api_key = "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"
 
