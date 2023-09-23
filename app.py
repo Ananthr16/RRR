@@ -5,7 +5,7 @@ import openai
 from PIL import Image
 import time
 from streamlit_option_menu import option_menu
-from streamlit_extras import switch_page
+from streamlit_extras.switch_page_button import switch_page
 
 #setting the page
 st.set_page_config(initial_sidebar_state = 'collapsed')
