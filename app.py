@@ -16,8 +16,8 @@ selected = option_menu(
             default_index=0,  # optional
             orientation="horizontal",
         )
-if selected = 'AI model':
-	switch_page('AI model')
+if selected = 'AI Model':
+	switch_page('AI Model')
 if selected = 'Segregation':
 	switch_page('Segregation')
 st.title('Reduce, Recycle, Reuse')
