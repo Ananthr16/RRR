@@ -18,6 +18,8 @@ selected = option_menu(
         )
 if selected = 'AI model':
 	switch_page('AI model')
+if selected = 'Segregation':
+	switch_page('Segregation')
 st.title('Reduce, Recycle, Reuse')
 st.subheader('''The RRR Web Application uses a 2 step ML Model backed up with multiple data sets as well as a customized data set to identify the object and the material after which it provides ways to reduce, reuse, and recycle the obejct.  ''') 
 st.markdown("""Steps to use the app :
