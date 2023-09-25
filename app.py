@@ -15,9 +15,7 @@ with col[0]:
 with col[1]:
 	if st.button("Plastic(recyclable)"):
 		switch_page('Plastic(recyclable)')
-with col[2]:
-	if st.button("lll"):
-		st.write('hello')
+
 with col[3]:
 	if st.button("Plastic non recyclable"):
 		switch_page('Plastic non recyclable')
