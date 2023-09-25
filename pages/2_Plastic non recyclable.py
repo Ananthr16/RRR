@@ -1,4 +1,9 @@
 import streamlit as st
+from streamlit_extras.switch_page_button import switch_page
+
+#setting the page
+if st.button('Back'):
+	switch_page('app')
 st.title('Non recyclable plastic waste')
 #st.image('Rudra.png')
 st.markdown('''Non-recyclable plastic waste refers to types of plastic materials that are not easily or economically recyclable through conventional recycling processes.
