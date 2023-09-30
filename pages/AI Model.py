@@ -9,7 +9,7 @@ from streamlit_extras.switch_page_button import switch_page
 #setting the page
 if st.button('Back'):
 	switch_page('app')
-st.markdown("""Steps to use the app :
+st.markdown("""Steps to use the AI Model :
 - Click the image using the camera app on your mobile phone
 - Press the button 'browse files' and choose the image from your gallery.
 - select the correct combination from the ML Model outputs
