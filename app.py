@@ -23,16 +23,16 @@ with colum[0]:
 	
 col = st.columns(9)
 with col[0]:
-	if st.button("Plastic recyclable" , key = count):
+	if st.button("Biodegradable" , key = count):
 		switch_page('Plastic(recyclable)')
 		count += 1
 
 with col[4]:
-	if st.button("Plastic non recyclable"):
+	if st.button("Non-Biodegradable"):
 		switch_page('Plastic non recyclable')
 
 with col[8]:
-	if st.button("E-Waste"):
+	if st.button("Hazardous Waste"):
 		switch_page('E-Waste')
 
 
