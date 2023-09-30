@@ -5,15 +5,11 @@ from streamlit_extras.switch_page_button import switch_page
 if st.button('Back'):
 	switch_page('Non-Biodegradable')
 
-st.title('Biodegradable Waste')
-st.markdown(''' Biodegradable waste (organic) is generated from kitchen waste and garden waste 
-\n Biodegradable waste should be composted.
-\n Composting can be done:
-\n a) At the individual household level. 
-\n b) At the residential complex level.
-\n c) At the community level.
-\n d) By commercial composting organisations. 
+st.title('Paper Waste')
+st.markdown(''' Paper waste can be recycled completely, the conditions for paper to be recycled are given here 
 ''')
+if st.button('Conditions to recycle paper waste'):
+	switch_page('ConditionsPaper
 st.markdown('''
 The precautions to be taken with respect to kitchen waste before composting is given here : ''')
 if st.button('Conditions for composting'):
