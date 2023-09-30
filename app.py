@@ -36,7 +36,7 @@ with col[0]:
 
 with col[4]:
 	if st.button("Non-Biodegradable"):
-		switch_page('Plastic non recyclable')
+		switch_page('Non-Biodegradable')
 
 with col[8]:
 	if st.button("Hazardous Waste"):
