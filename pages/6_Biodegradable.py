@@ -16,6 +16,8 @@ st.markdown(''' Biodegradable waste (organic) is generated from kitchen waste an
 ''')
 st.markdown('''
 The precautions to be taken with respect to kitchen waste before composting is given here : ''')
+if st.button("Conditions for composting"):
+		switch_page('ConditionsComposting')
 
 
 st.markdown(''' The commercial composting organisation contacts are given below
