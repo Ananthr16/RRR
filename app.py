@@ -21,6 +21,13 @@ with colum[0]:
 	if st.button("AI Model"):
 		switch_page('AI Model')
 	
+
+
+st.subheader('''Waste can be categorised as follows :''')
+
+
+
+
 col = st.columns(9)
 with col[0]:
 	if st.button("Biodegradable" , key = count):
