@@ -11,11 +11,13 @@ st.markdown(''' Paper waste can be recycled completely, the conditions for paper
 if st.button('Conditions to recycle paper waste'):
 	switch_page('ConditionsPaper')
 st.markdown('''
-Paper waste can be recycled by  ''')
-if st.button('Conditions for composting'):
-		switch_page('ConditionsComposting')
+Paper can be recycled through
+\n a) 
+\n b) 
+\n c) 
+\n d) By commercial composting organisations.  ''')
 
-st.markdown(''' In garden waste palm and coconut tree fronds (leaf) or the leaflets should not be included ''')
+
 
 
 st.markdown(''' The commercial composting organisation contacts are given below
