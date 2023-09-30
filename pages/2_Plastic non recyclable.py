@@ -12,13 +12,13 @@ These materials are typically difficult to recycle due to various reasons, such 
 ''')
 	st.markdown('''The most commonly recycled plastics are:
 •	1 – Polyethylene Terephthalate (PET) – water bottles and plastic trays
-•	2 – High Density Polyethylene (HDPE) – milk cartoons and shampoo bottles
-•	5 – Polypropylene (PP) – margarine tubs and ready-meal trays
-Somewhat recyclable plastics (at specialist facilities) include:
-•	3 – Polyvinyl Chloride (PVC) – piping
-•	4 – Low Density Polyethylene (LDPE) – food bags
-•	6 – Polystyrene (PS) – plastic cutlery
-Incredibly hard to recycle plastics include crisp packets, salad bags, plastic wrap and more.
+\n•	2 – High Density Polyethylene (HDPE) – milk cartoons and shampoo bottles
+\n•	5 – Polypropylene (PP) – margarine tubs and ready-meal trays
+\nSomewhat recyclable plastics (at specialist facilities) include:
+\n•	3 – Polyvinyl Chloride (PVC) – piping
+\n•	4 – Low Density Polyethylene (LDPE) – food bags
+\n•	6 – Polystyrene (PS) – plastic cutlery
+\nIncredibly hard to recycle plastics include crisp packets, salad bags, plastic wrap and more.
 
 ''')
 	st.markdown(''' Recycler for non recyclable plastic waste - Rudra Environment solutions Ltd
