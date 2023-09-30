@@ -12,11 +12,9 @@ if st.button('Conditions to recycle paper waste'):
 	switch_page('ConditionsPaper')
 st.markdown('''
 Paper can be recycled through
-\n a) 
+\n a) Collection centres for recycling paper
 \n b) 
-\n c) 1. Establish convenient and accessible recycling and reuse collection centres (to be managed by local communities) 
-for different types of materials (e.g., paper, cardboard, plastic, glass, metals, clothes, books, toys) and encourage citizens to deposit recyclables at these centres. 
-Drop-off points can be set up throughout the community, including schools, markets, and public spaces
+\n c) 
 \n d) By commercial composting organisations.  ''')
 
 
