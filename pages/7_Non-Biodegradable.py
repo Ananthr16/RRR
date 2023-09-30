@@ -47,7 +47,8 @@ Non-Biodegradable waste can be reused or recycled. For unique ways to Reduce or 
 ''')
 if(st.button('AI-Model'):
 	 switch_page('AI Model')
-	
+
+
    
 
 
