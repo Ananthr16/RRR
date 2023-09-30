@@ -10,6 +10,42 @@ st.markdown(''' Non-Biodegradable waste (dry waste) can be catagorised as follow
 ''')
 asd  = st.columns(6)
 
+with asd[0]:
+	if st.button("Paper"):
+		switch_page('Biodegradable')
+		
+
+with asd[1]:
+	if st.button("Plastic"):
+		switch_page('Plastic non recyclable')
+
+with asd[2]:
+	if st.button("Glass"):
+		switch_page('E-Waste')
+
+
+with asd[3]:
+	if st.button("Metal"):
+		switch_page('E-Waste')
+
+
+with asd[4]:
+	if st.button("E-Waste"):
+		switch_page('E-Waste')
+
+
+
+
+with asd[5]:
+	if st.button("Others"):
+		switch_page('E-Waste')
+
+
+
+
+
+
+
 
 
 
