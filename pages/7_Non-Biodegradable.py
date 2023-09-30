@@ -42,7 +42,10 @@ with asd[5]:
 
 
 
-
+st.markdown('''
+Non-Biodegradable waste can be reused or recycled. For unique ways to Reduce or recycle Non-Biodegradable waste go to the AI-Model ''')
+if(st.button('AI-Model')
+   switch_page('AI Model')
 
 
 
