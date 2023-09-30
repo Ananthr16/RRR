@@ -9,7 +9,7 @@ st.title('Paper Waste')
 st.markdown(''' Paper waste can be recycled completely, the conditions for paper to be recycled are given here 
 ''')
 if st.button('Conditions to recycle paper waste'):
-	switch_page('ConditionsPaper
+	switch_page('ConditionsPaper')
 st.markdown('''
 The precautions to be taken with respect to kitchen waste before composting is given here : ''')
 if st.button('Conditions for composting'):
