@@ -6,6 +6,17 @@ if st.button('Back'):
 	switch_page('app')
 
 st.title('Non-Biodegradable waste')
+
+
+st.markdown('''
+Non-Biodegradable waste can be reused or recycled 
+\n The conditions for reuse/recycling of the above categories of waste are included in the respective page.
+''')
+
+   
+
+
+
 st.markdown(''' Non-Biodegradable waste (dry waste) can be catagorised as follows :
 ''')
 asd  = st.columns(6)
