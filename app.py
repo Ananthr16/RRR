@@ -12,17 +12,17 @@ col = st.columns(6)
 with col[0]:
 	if st.button("AI Model"):
 		switch_page('AI Model')
-with col[1]:
+with col[2]:
 	if st.button("Plastic(recyclable)"):
 		switch_page('Plastic(recyclable)')
 
-with col[3]:
+with col[4]:
 	if st.button("Plastic non recyclable"):
 		switch_page('Plastic non recyclable')
-with col[4]:
+with col[6]:
 	if st.button("Paper\Cardboard"):
 		switch_page('Paper\Cardboard')
-with col[5]:
+with col[8]:
 	if st.button("E-Waste"):
 		switch_page('E-Waste')
 
