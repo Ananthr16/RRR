@@ -16,21 +16,20 @@ RRR is a Web-based App which helps you decide what you can do with any item or m
  \n This helps to identify the object/material using your camera, after which it provides ways to reduce, reuse, and recycle it. 
 \n Use it to lead a healthy and less wasteful life. And protect our earth - the only home we have. ''') 
 
-
+colum = st.columns(1)
+with colum[0]:
+	if st.button("AI Model"):
+		switch_page('AI Model')
+	
 col = st.columns(9)
 with col[0]:
 	if st.button("AI Model"):
 		switch_page('AI Model')
-with col[2]:
-	if st.button("Plastic(recyclable)"):
-		switch_page('Plastic(recyclable)')
 
 with col[4]:
 	if st.button("Plastic non recyclable"):
 		switch_page('Plastic non recyclable')
-with col[6]:
-	if st.button("Paper\Cardboard"):
-		switch_page('Paper\Cardboard')
+
 with col[8]:
 	if st.button("E-Waste"):
 		switch_page('E-Waste')
