@@ -23,8 +23,8 @@ with colum[0]:
 	
 col = st.columns(9)
 with col[0]:
-	if st.button("AI Model"):
-		switch_page('AI Model')
+	if st.button("Plastic recyclable"):
+		switch_page('Plastic(recyclable)')
 
 with col[4]:
 	if st.button("Plastic non recyclable"):
