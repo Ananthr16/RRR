@@ -4,7 +4,7 @@ from streamlit_extras.switch_page_button import switch_page
 #setting the page
 if st.button('Back'):
 	switch_page('app')
-st.set_page_config(layout = 'wide')
+
 st.title('Non recyclable plastic waste')
 cl=st.columns(2)
 with cl[0]:
