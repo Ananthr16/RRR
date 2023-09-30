@@ -23,21 +23,21 @@ asd  = st.columns(6)
 
 with asd[0]:
 	if st.button("Paper"):
-		switch_page('Biodegradable')
+		switch_page('Paper')
 		
 
 with asd[1]:
 	if st.button("Plastic"):
-		switch_page('Plastic non recyclable')
+		switch_page('Plastic')
 
 with asd[2]:
 	if st.button("Glass"):
-		switch_page('E-Waste')
+		switch_page('Glass')
 
 
 with asd[3]:
 	if st.button("Metal"):
-		switch_page('E-Waste')
+		switch_page('Metal')
 
 
 with asd[4]:
@@ -49,7 +49,7 @@ with asd[4]:
 
 with asd[5]:
 	if st.button("Others"):
-		switch_page('E-Waste')
+		switch_page('Others')
 
 
 
