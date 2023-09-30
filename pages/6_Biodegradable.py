@@ -14,6 +14,8 @@ st.markdown(''' Biodegradable waste (organic) is generated from kitchen waste an
 \n c) At the community level.
 \n d) By commercial composting organisations. 
 ''')
+st.markdown('''
+The items and the conditions for composting kitchen waste is given below''')
 
 
 
