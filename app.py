@@ -31,7 +31,7 @@ st.subheader('''Waste can be categorised as follows :''')
 col = st.columns(9)
 with col[0]:
 	if st.button("Biodegradable" , key = count):
-		switch_page('Plastic(recyclable)')
+		switch_page('Biodegradable')
 		count += 1
 
 with col[4]:
