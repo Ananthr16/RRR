@@ -7,7 +7,7 @@ import time
 from streamlit_extras.switch_page_button import switch_page
 
 #setting the page
-st.set_page_config(initial_sidebar_state = 'collapsed')
+st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
 col = st.columns(9)
 with col[0]:
 	if st.button("AI Model"):
