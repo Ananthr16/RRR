@@ -14,7 +14,6 @@ Clean plastics are easier to process and are less likely to contaminate the recy
 \n 
 Remove Non-Recyclables: Ensure that the plastic waste you're recycling doesn't contain non-recyclable materials or items that can't be processed, such as metal components, glass, or hazardous materials.
 These contaminants can disrupt the recycling process and reduce the quality of the recycled material.
-n\
 ''')
 
 
