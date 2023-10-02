@@ -13,7 +13,7 @@ This category of waste includes a wide range of devices and appliances, such as 
 ''')
 st.markdown('''
 The precautions to be taken with respect to E-Waste before handing it over to commercial E-Waste recycling organisations are given below : ''')
-if st.button('Conditions for composting'):
+if st.button('Conditions for E-Waste'):
 		switch_page('ConditionsEwaste')
 
 
