@@ -16,7 +16,7 @@ st.markdown('''
 ''')
 st.markdown('''
 \n The precautions to be taken with respect to plastic before handing it over to recyclers are given below : ''')
-if st.button('Conditions for composting'):
+if st.button('Conditions for recycling plastic waste'):
 		switch_page('ConditionsPlastic')
 
 
