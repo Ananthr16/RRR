@@ -10,12 +10,12 @@ st.markdown('''Plastic waste is a pressing environmental issue with far-reaching
 n\ It refers to discarded plastic products and materials that accumulate in landfills, oceans, and natural habitats.
 ''')
 
-st.markdown(''' n\
+st.markdown(''' \n
 Plastic waste can be repurposed into creative household items. To get innovative ideas on how plastic waste can be repurposed use the AI Model.
-n\ Recycling of plastic waste can be done only in dedicated plastic recycling facilites 
+\n Recycling of plastic waste can be done only in dedicated plastic recycling facilites 
 ''')
 st.markdown('''
-n\ The precautions to be taken with respect to plastic before handing it over to recyclers are given below : ''')
+\n The precautions to be taken with respect to plastic before handing it over to recyclers are given below : ''')
 if st.button('Conditions for composting'):
 		switch_page('ConditionsPlastic')
 
@@ -25,7 +25,7 @@ if st.button('Conditions for composting'):
 st.markdown(''' The contacts for organisations which collect plastic waste which is to be recycled are given below
 \n a) For non-recyclable Plastic waste - Rudra Environment Solutions Ltd.
 Contact - 020 25448900, 9373053235
-n\ b) For recyclable Plastic waste - Scrapcash   Contact - 9112323252
+\n b) For recyclable Plastic waste - Scrapcash   Contact - 9112323252
 ''')
 
 
