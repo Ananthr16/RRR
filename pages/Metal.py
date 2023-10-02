@@ -12,7 +12,7 @@ Common examples include kitchen utensils, appliances, old furniture, bicycles, a
 ''')
 st.markdown('''
 The precautions to be taken with respect to Metal waste before handing it over to recyclers is given below ''')
-if st.button('Conditions for composting'):
+if st.button('Conditions for Metal Waste'):
 		switch_page('ConditionsMetal')
 
 
