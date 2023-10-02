@@ -8,6 +8,7 @@ if st.button('Back'):
 
 st.title('Conditions to hand over E-Waste to commercials recyclers')
 
+
 st.markdown(''' 
 Remove Batteries: If possible, remove batteries from devices.
 Batteries should be recycled separately because they can contain hazardous materials.
