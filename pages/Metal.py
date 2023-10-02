@@ -6,17 +6,12 @@ if st.button('Back'):
 	switch_page('Non-Biodegradable')
 
 
-st.title('Biodegradable Waste')
-st.markdown(''' Biodegradable waste (organic) is generated from kitchen waste and garden waste 
-\n Biodegradable waste should be composted.
-\n Composting can be done:
-\n a) At the individual household level. 
-\n b) At the residential complex level.
-\n c) At the community level.
-\n d) By commercial composting organisations. 
+st.title('Metal Waste')
+st.markdown(''' Metal waste generated from households consists of various items made of metal that are no longer needed or have reached the end of their usable life. 
+Common examples include kitchen utensils, appliances, old furniture, bicycles, and metal containers.
 ''')
 st.markdown('''
-The precautions to be taken with respect to kitchen waste before composting is given here : ''')
+The precautions to be taken with respect to Metal waste before handing it over to recyclers is given below ''')
 if st.button('Conditions for composting'):
 		switch_page('ConditionsMetal')
 
