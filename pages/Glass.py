@@ -23,3 +23,4 @@ st.markdown(''' The commercial Glass recycling organisation's contacts are given
 \n ScrapCash - Siddhant Ingale : 9112323252, Zuber Sayyed : 8308133133
 
 ''')
+
