@@ -7,23 +7,27 @@ if st.button('Back'):
 
 
 
-st.title('Biodegradable Waste')
-st.markdown(''' Biodegradable waste (organic) is generated from kitchen waste and garden waste 
-\n Biodegradable waste should be composted.
-\n Composting can be done:
-\n a) At the individual household level. 
-\n b) At the residential complex level.
-\n c) At the community level.
-\n d) By commercial composting organisations. 
+st.title('E-Waste')
+st.markdown(''' E-waste, short for electronic waste, refers to discarded electronic and electrical equipment that has reached the end of its useful life. 
+This category of waste includes a wide range of devices and appliances, such as smartphones, laptops, televisions, refrigerators, and more. 
 ''')
 st.markdown('''
-The precautions to be taken with respect to kitchen waste before composting is given here : ''')
+The precautions to be taken with respect to E-Waste before handing it over to commercial E-Waste recycling organisations are given below : ''')
 if st.button('Conditions for composting'):
 		switch_page('ConditionsEwaste')
 
-st.markdown(''' In garden waste palm and coconut tree fronds (leaf) or the leaflets should not be included ''')
 
 
-st.markdown(''' The commercial composting organisation contacts are given below
-\n MobiTrash - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil0ZiO7dKBAxXLP3AKHRm1AA0QFnoECAoQAQ&url=https%3A%2F%2Fwww.mobitrash.in%2F&usg=AOvVaw2CUH_i72_ZxySPZ98nhNgR&opi=89978449
+
+st.markdown(''' The commercial E-Waste recycling oragnisations and their contacts are given below
+\n Scrapcash - Siddhant Ingale : 9112323252 
+\n Poornam Ecovision - Supriya Kokane : 7558324287
+\n Hi Tech RecyclingIndia - Manoj Patil : 020 66521000
 ''')
+
+
+
+
+
+
+
