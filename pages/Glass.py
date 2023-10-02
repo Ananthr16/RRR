@@ -8,7 +8,7 @@ if st.button('Back'):
 
 
 st.title('Glass Waste')
-st.markdown(''' Glass waste, often referred to simply as "glass recycling," is a crucial component of sustainable waste management.
+st.markdown(''' Glass waste is a crucial component of sustainable waste management.
 Glass is a versatile material that can be endlessly recycled without a loss in quality, making it an environmentally friendly option. 
 ''')
 st.markdown('''
