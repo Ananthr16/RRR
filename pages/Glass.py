@@ -13,7 +13,7 @@ Glass is a versatile material that can be endlessly recycled without a loss in q
 ''')
 st.markdown('''
 The precautions to be taken with respect to Glass Waste before handing over to commercial recyclers are given below : ''')
-if st.button('Conditions for composting'):
+if st.button('Conditions for Glass Waste recycling'):
 		switch_page('ConditionsGlass')
 
 
