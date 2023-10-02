@@ -5,7 +5,6 @@ from streamlit_extras.switch_page_button import switch_page
 if st.button('Back'):
 	switch_page('Non-Biodegradable')
 
-st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
 
 st.title('Plastic Waste')
 st.markdown('''Plastic waste is a pressing environmental issue with far-reaching consequences.
