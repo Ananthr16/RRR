@@ -14,6 +14,7 @@ st.markdown(''' Other types of waste includes Mats, rubber, coir, cotton, synthe
 if st.button('Conditions to recycle paper waste'):
 	switch_page('ConditionsPaper')
 	
+	
 st.markdown('''
 Paper can be recycled through
 \n a) Collection centres for recycling paper
