@@ -8,9 +8,8 @@ if st.button('Back'):
 
 
 
-st.title('Paper Waste')
-st.markdown(''' Paper waste refers to discarded or unused paper products that are no longer needed or have reached the end of their useful life. 
-\n It encompasses any paper materials that are thrown away, recycled, or otherwise disposed of in a manner that does not involve their continued use.
+st.title('Other types of waste')
+st.markdown(''' Other types of waste includes Mats, rubber, coir, cotton, synthetic, Mops, Dusters, Footwear, Ceramic, Cosmetics, Wood, and Coconut shells
 ''')
 if st.button('Conditions to recycle paper waste'):
 	switch_page('ConditionsPaper')
