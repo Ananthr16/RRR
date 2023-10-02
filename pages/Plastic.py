@@ -7,11 +7,11 @@ if st.button('Back'):
 
 st.title('Plastic Waste')
 st.markdown('''Plastic waste is a pressing environmental issue with far-reaching consequences.
-n\ It refers to discarded plastic products and materials that accumulate in landfills, oceans, and natural habitats.
+\n It refers to discarded plastic products and materials that accumulate in landfills, oceans, and natural habitats.
 ''')
 
-st.markdown(''' \n
-Plastic waste can be repurposed into creative household items. To get innovative ideas on how plastic waste can be repurposed use the AI Model.
+st.markdown(''' 
+\n Plastic waste can be repurposed into creative household items. To get innovative ideas on how plastic waste can be repurposed use the AI Model.
 \n Recycling of plastic waste can be done only in dedicated plastic recycling facilites 
 ''')
 st.markdown('''
