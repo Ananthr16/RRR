@@ -16,3 +16,4 @@ Separating them at the source streamlines the recycling process.
 Such contamination can impede the recycling process and affect the quality of the recycled metal.
 \n Size Reduction (if necessary): Large metal items may need to be reduced in size before recycling, either by cutting, crushing, or shredding. 
 This makes them more manageable for processing.
+''')
