@@ -5,6 +5,8 @@ from streamlit_extras.switch_page_button import switch_page
 if st.button('Back'):
 	switch_page('Non-Biodegradable')
 
+st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
+
 st.title('Biodegradable Waste')
 st.markdown(''' Biodegradable waste (organic) is generated from kitchen waste and garden waste 
 \n Biodegradable waste should be composted.
