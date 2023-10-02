@@ -26,6 +26,7 @@ st.markdown(''' The contacts for organisations which collect plastic waste which
 \n a) For non-recyclable Plastic waste - Rudra Environment Solutions Ltd.
 Contact - 020 25448900, 9373053235
 n\ b) For recyclable Plastic waste - Scrapcash   Contact - 9112323252
+''')
 
 
 
