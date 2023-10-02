@@ -18,7 +18,7 @@ if st.button('Conditions for composting'):
 
 
 
-st.markdown(''' The commercial composting organisation contacts are given below
+st.markdown(''' The commercial metal recycling organisation contacts are given below
 \n ScrapCash -  Zuber Sayyed : 8308133133, 
 \n ScrapCash - Siddhant Ingale : 9112323252
 ''')
