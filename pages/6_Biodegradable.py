@@ -23,6 +23,8 @@ st.markdown(''' In garden waste palm and coconut tree fronds (leaf) or the leafl
 
 
 st.markdown(''' The commercial composting organisation contacts are given below
-\n MobiTrash - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil0ZiO7dKBAxXLP3AKHRm1AA0QFnoECAoQAQ&url=https%3A%2F%2Fwww.mobitrash.in%2F&usg=AOvVaw2CUH_i72_ZxySPZ98nhNgR&opi=89978449
+\n MobiTrash - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil0ZiO7dKBAxXLP3AKHRm1AA0QFnoECAoQAQ&url=https%3A%2F%2Fwww.mobitrash.in%2F&usg=AOvVaw2CUH_i72_ZxySPZ98nhNgR&opi=89978449   Nilesh Bhagat: 9881722393 
+\n GREEN THUMB - Firdosh Roowalla: 9766403305
+\n PROEARTH / INORA - Hamsa Iyer: 9892126134 / Babasaheb: 8446667634
 ''')
 
