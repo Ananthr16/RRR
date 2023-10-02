@@ -5,6 +5,9 @@ from streamlit_extras.switch_page_button import switch_page
 if st.button('Back'):
 	switch_page('Non-Biodegradable')
 
+st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
+
+
 st.title('Paper Waste')
 st.markdown(''' Paper waste can be recycled completely, the conditions for paper to be recycled are given here 
 ''')
