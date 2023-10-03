@@ -10,6 +10,7 @@ from streamlit_extras.switch_page_button import switch_page
 st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
 
 
+
 def set_bg_hack_url():
     '''
     A function to unpack an image from url and set as bg.
