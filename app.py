@@ -23,7 +23,7 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://ibb.co/XWqHq2q");
+             background: url("<a href="https://ibb.co/XWqHq2q"><img src="https://i.ibb.co/WHLCLxL/app.png" alt="app" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>best free image hosting site</a><br />");
              background-size: cover
          }}
          </style>
