@@ -31,7 +31,7 @@ def set_bg_hack_url():
          unsafe_allow_html=True
      )
 
-set_bg_hack_url()
+
 
 
 st.title('R R R')
