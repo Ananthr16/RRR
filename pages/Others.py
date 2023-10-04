@@ -8,6 +8,8 @@ if st.button('Back'):
 
 
 
+
+
 st.title('Other types of waste')
 st.markdown(''' Other types of waste includes Mats, rubber, coir, cotton, synthetic, Mops, Dusters, Footwear, Ceramic, Cosmetics, Wood, and Coconut shells
 ''')
