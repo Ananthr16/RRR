@@ -5,6 +5,14 @@ import openai
 from PIL import Image
 import time
 from streamlit_extras.switch_page_button import switch_page
+import json 
+import requests 
+
+def load_lottieur1(url: str):
+	r = requests.get(url)
+	if r.status_code != 200:
+		return None
+	return r.json ()
 
 #setting the page
 st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
