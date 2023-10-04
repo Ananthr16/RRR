@@ -30,4 +30,4 @@ with column[0]:
 	contact details for Scrapcash : Siddanth Ingale 9112323252
 	''')
 with column[1]:
-	st.image('Paper waste.png',width = 900,height = 100)
+	st.image('Paper waste.png',width = 800,height = 50)
