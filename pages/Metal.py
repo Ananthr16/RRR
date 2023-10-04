@@ -29,4 +29,6 @@ with column[1]:
 	st.image('Metal waste.png')
 
 
+
+
 	
