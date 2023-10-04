@@ -65,6 +65,6 @@ with col[4]:
 
 with col[8]:
 	if st.button("Hazardous Waste"):
-		switch_page('Hazardous.py')
+		switch_page('Hazardous')
 
 
