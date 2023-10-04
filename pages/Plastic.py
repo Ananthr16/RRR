@@ -18,7 +18,7 @@ with column[0]:
 \n Recycling of plastic waste can be done only in dedicated plastic recycling facilites 
 ''')
 	if st.button('AI-Model'):
-	switch_page('AI Model')
+		switch_page('AI Model')
 
 	st.markdown('''
 \n The precautions to be taken with respect to plastic before handing it over to recyclers are given below : ''')
