@@ -16,7 +16,7 @@ with column[0]:
 
 
 ''')
-	st.subheader('The precautions to be taken with respect to kitchen waste before composting is given here ')
+	st.subheader('The precautions to be taken with respect to hazardous waste before recycling are given below ')
 	st.markdown(''' Chemical Product Labels: Read product labels carefully, follow usage instructions, and dispose of the empty containers as hazardous waste if necessary.
 \nLocal Household Hazardous Waste Collection: Many communities have designated collection programs or facilities for household hazardous waste. Take advantage of these services for safe disposal.
 ''')
