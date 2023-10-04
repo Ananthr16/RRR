@@ -23,7 +23,7 @@ with column[0]:
 
 
 
-	st.markdown(''' The commercial Hazardous waste recycling organisation's contacts are given below
+	st.markdown(''' The commercial Hazardous waste recycling organisations contacts are given below
 \n BIOMEDICAL WASTE - PASSCO(Injection needles, dressing material to be kept separately at home). Contact - 020 25467096 
 ''')
 
