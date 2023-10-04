@@ -5,7 +5,7 @@ from streamlit_extras.switch_page_button import switch_page
 if st.button('Back'):
 	switch_page('Plastic')
 
-st.markdown(''' Conditions to give plastic waste to recycling organisations :
+st.title(''' Conditions to give plastic waste to recycling organisations :
 ''')
 st.markdown(''' 
 Clean the Plastics: Remove any food residue, liquids, or contaminants from the plastic items. 
