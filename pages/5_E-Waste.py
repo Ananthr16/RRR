@@ -5,7 +5,7 @@ from streamlit_extras.switch_page_button import switch_page
 if st.button('Back'):
 	switch_page('Non-Biodegradable')
 
-st.image('E-waste.png')
+
 
 st.title('E-Waste')
 st.markdown(''' E-waste, short for electronic waste, refers to discarded electronic and electrical equipment that has reached the end of its useful life. 
