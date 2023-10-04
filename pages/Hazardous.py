@@ -27,5 +27,8 @@ with column[0]:
 \n BIOMEDICAL WASTE - PASSCO(Injection needles, dressing material to be kept separately at home). Contact - 020 25467096 
 ''')
 
+with column[1]:
+	st.image('Hazardous waste.png')
+
 
 
