@@ -26,5 +26,8 @@ The precautions to be taken with respect to Glass Waste before handing over to c
 
 ''')
 
+with column[1]:
+	st.image('Glass waste.png')
+
 
 
