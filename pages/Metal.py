@@ -25,5 +25,8 @@ The precautions to be taken with respect to Metal waste before handing it over t
 \n ScrapCash - Siddhant Ingale : 9112323252
 ''')
 
+with column[1]:
+	st.image('Metal waste.png')
+
 
 	
