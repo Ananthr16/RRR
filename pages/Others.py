@@ -34,6 +34,10 @@ n\ ''')
 ''')
 
 
+with column[1]:
+	st.image('Miscellaneous.png')
+
+
 
 
 
