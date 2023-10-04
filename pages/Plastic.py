@@ -35,4 +35,8 @@ Contact - 020 25448900, 9373053235
 ''')
 
 
+with column[1]:
+	st.image('Plastic waste.png')
+
+
 
