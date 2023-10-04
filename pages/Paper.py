@@ -14,7 +14,7 @@ with column[0]:
 \n It encompasses any paper materials that are thrown away, recycled, or otherwise disposed of in a manner that does not involve their continued use.
 ''')
 	if st.button('Conditions to recycle paper waste'):
-	switch_page('ConditionsPaper')
+		switch_page('ConditionsPaper')
 	
 	st.markdown('''
 	Paper can be recycled through
