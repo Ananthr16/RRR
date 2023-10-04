@@ -14,6 +14,8 @@ def load_lottieur1(url: str):
 		return None
 	return r.json ()
 
+lottie_hello = load_lottieurl("https://lottie.host/ddedf6f1-8fdf-412b-9e40-76237fa2df77/W6X4B23V5f.json")
+
 #setting the page
 st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
 
