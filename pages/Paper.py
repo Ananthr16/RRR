@@ -31,3 +31,4 @@ with column[0]:
 	''')
 with column[1]:
 	st.image('Paper waste.png')
+	
