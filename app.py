@@ -8,6 +8,19 @@ from streamlit_extras.switch_page_button import switch_page
 import json 
 import requests 
 
+
+
+page_bg_img = """
+ ‹style>
+[data-testid-"stAppViewContainer"] {
+background-color: #e5e5f7;
+opacity: 0.8;
+
+}
+</style›
+"""
+
+st.markdown (page_bg_img, unsafe_allow_htmI=True) st.title("It's summer!")
 def load_lottieurl(url: str):
 	r = requests.get(url)
 	if r.status_code != 200:
