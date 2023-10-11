@@ -12,7 +12,7 @@ import requests
 
 
 
-st.markdown (page_bg_img, unsafe_allow_htmI=True) st.title("It's summer!")
+
 def load_lottieurl(url: str):
 	r = requests.get(url)
 	if r.status_code != 200:
