@@ -22,7 +22,7 @@ lottie_hello = load_lottieurl("https://lottie.host/ddedf6f1-8fdf-412b-9e40-76237
 #setting the page
 st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
 st.markdown(
-         f"""
+         """
          <style>
          .stApp {
              background-image: linear-gradient(to right,sky blue, purple);
