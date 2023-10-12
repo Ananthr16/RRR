@@ -7,7 +7,7 @@ import time
 from streamlit_extras.switch_page_button import switch_page
 import json 
 import requests 
-
+from streamlit_lottie import st_lottie
 
 
 
@@ -30,7 +30,7 @@ st.markdown(
          </style>
          """,
          unsafe_allow_html=True)
-
+st_lottie(lottie_hello,key='hello')
 
 st.title('R R R')
 st.subheader('''RRR: Reduce, Recycle, Reuse 
