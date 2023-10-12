@@ -30,9 +30,12 @@ st.markdown(
          </style>
          """,
          unsafe_allow_html=True)
-st_lottie(lottie_hello,key='hello')
 
-st.title('R R R')
+col1,col2 = st.columns([0.6,0.4])
+with col1:
+	st.title('R R R')
+with col2:
+	st_lottie(lottie_hello,key='hello')
 st.subheader('''RRR: Reduce, Recycle, Reuse 
 RRR is a Web-based App which helps you decide what you can do with any item or material in order to dispose of it sustainability, and with least harm to the environment. 
  \n It uses a 2 step ML Model backed up with multiple data sets as well as a customized data set. 
