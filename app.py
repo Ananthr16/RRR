@@ -38,14 +38,13 @@ def set_bg_hack_url():
          f"""
          <style>
          .stApp {{
-             background: url("https://i.ibb.co/WHLCLxL/app.png");
-             background-size: cover
+             background-image: linear-gradient(to right,sky blue, purple);
          }}
          </style>
          """,
          unsafe_allow_html=True
      )
-
+set_bg_hack_url()
 
 
 
