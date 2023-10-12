@@ -36,8 +36,7 @@ with col2:
 	st_lottie(lottie_hello,key='hello')
 with col1:
 	st.title('R R R')
-	st.subheader('''RRR: Reduce, Recycle, Reuse 
- 	
+	st.subheader('''RRR: Reduce, Recycle, Reuse 	
 RRR is a Web-based App which helps you decide what you can do with any item or material in order to dispose of it sustainability, and with least harm to the environment. 
  \n It uses a 2 step ML Model backed up with multiple data sets as well as a customized data set. 
  \n This helps to identify the object/material using your camera, after which it provides ways to reduce, reuse, and recycle it. 
