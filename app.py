@@ -21,15 +21,7 @@ lottie_hello = load_lottieurl("https://lottie.host/ddedf6f1-8fdf-412b-9e40-76237
 
 #setting the page
 st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
-st.markdown(
-         """
-         <style>
-         .stApp {
-             background-image: linear-gradient(to right,green, yellow);
-         }
-         </style>
-         """,
-         unsafe_allow_html=True)
+
 
 col1,col2 = st.columns([0.6,0.4])
 with col2:
