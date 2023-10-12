@@ -5,3 +5,4 @@ backgroundColor="#a3f1f0"
 textColor="#121212"
 [data-testid="stAppViewContainer"] {
 background: linear-gradient (...);
+}
