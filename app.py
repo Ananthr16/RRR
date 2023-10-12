@@ -11,8 +11,6 @@ import requests
 
 
 
-
-
 def load_lottieurl(url: str):
 	r = requests.get(url)
 	if r.status_code != 200:
@@ -23,29 +21,15 @@ lottie_hello = load_lottieurl("https://lottie.host/ddedf6f1-8fdf-412b-9e40-76237
 
 #setting the page
 st.set_page_config(initial_sidebar_state = 'collapsed',layout = 'wide')
-
-
-
-def set_bg_hack_url():
-    '''
-    A function to unpack an image from url and set as bg.
-    Returns
-    -------
-    The background.
-    '''
-        
-    st.markdown(
+st.markdown(
          f"""
          <style>
-         .stApp {{
+         .stApp {
              background-image: linear-gradient(to right,sky blue, purple);
-         }}
+         }
          </style>
          """,
-         unsafe_allow_html=True
-     )
-set_bg_hack_url()
-
+         unsafe_allow_html=True)
 
 
 st.title('R R R')
