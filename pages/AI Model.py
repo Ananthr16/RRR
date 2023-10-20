@@ -16,7 +16,7 @@ st.markdown("""Steps to use the AI Model :
 - Select reduce,Reuse or recycle and wait for the results """)
 object = []
 type = []
-@st.cacheresource
+@st.cache_resource
 def loading() :
 	#loading the models
 	mod1 = YOLO('yolov8x-cls.pt')
