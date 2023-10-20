@@ -16,9 +16,12 @@ st.markdown("""Steps to use the AI Model :
 - Select reduce,Reuse or recycle and wait for the results """)
 object = []
 type = []
-#loading the models
-model1 = YOLO('yolov8x-cls.pt')
-model2 = YOLO('best.pt')
+@st.cacheresource
+def loading() :
+	#loading the models
+	mod1 = YOLO('yolov8x-cls.pt')
+	mod2 = YOLO('best.pt')
+	return mod1,mod2
 st.markdown(
          f"""
          <style>
@@ -47,6 +50,7 @@ def search(pr):
 if img is not None:
 	img = Image.open(img)
 	st.image(img)
+	model1,model2=loading()
 	col1,col2 = st.columns(2)
 	res1 = model1.predict(img)
 	res2 = model2.predict(img)
